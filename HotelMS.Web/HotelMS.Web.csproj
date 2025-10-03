@@ -10,4 +10,8 @@
     <Folder Include="Data\Models\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\HotelMS.Core\HotelMS.Core.csproj" />
+  </ItemGroup>
+
 </Project>
