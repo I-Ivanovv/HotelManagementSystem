@@ -15,6 +15,7 @@ namespace HotelMS.Web.Controllers
 
         public IActionResult Index()
         {
+            _logger.LogInformation("This is an information message.");
             return View();
         }
 
